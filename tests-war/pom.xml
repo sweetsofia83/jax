@@ -55,7 +55,7 @@
 					
 					<execution>
 						<id>sleep</id>
-						<phase>install</phase>
+						<phase>validate</phase>
 						<configuration>
 							<target name="Wait">
 								<echo message="XXXX Wait for Tomcat server to start gracefully"/>

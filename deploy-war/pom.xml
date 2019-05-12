@@ -74,7 +74,7 @@
 						<configuration>
 							<target name="Wait">
 								<echo message="Wait for Tomcat server to start gracefully"/>
-								<sleep seconds="10"/>
+								<sleep seconds="10000"/>
 							</target>
 						</configuration>
 						<goals>
